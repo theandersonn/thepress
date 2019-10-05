@@ -12,6 +12,11 @@
     </head>
 
     <body <?php body_class(); ?>>
+        <!--[if gte IE 8]>
+            <div style="padding: 7.5px; background-color: #f44336; text-align: center; color: #fff;">
+                <p>Você esta usando um navegador <strong>desatualizado</strong>. <a href="http://browsehappy.com/" target="_blank">Atualize seu navegador</a> para melhorar sua experiência.</p>   
+            </div>
+        <![endif]--> 
 
         <header>
 
