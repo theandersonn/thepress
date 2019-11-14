@@ -1,8 +1,5 @@
 <?php
 
-/*--------------------------------------------------------------
-	CARREGANDO ESTILOS E SCRIPTS
---------------------------------------------------------------*/
 add_action('wp_enqueue_scripts', 'thepress_load_scripts_style');
 
 function thepress_load_scripts_style() {

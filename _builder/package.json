@@ -1,0 +1,21 @@
+{
+  "name": "thepress",
+  "version": "1.0.0",
+  "description": "Tema em branco para facilitar o desenvolvimento de sites com WordPress",
+  "scripts": {
+    "watch:styles": "onchange \"../_src/scss\" -- gulp sass",
+    "watch:scripts": "onchange \"../_src/js\" -- gulp js",
+    "start": "npm-run-all -p watch:styles watch:scripts"
+  },
+  "author": "Anderson Nascimento",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.2",
+    "npm-run-all": "^4.1.5",
+    "onchange": "^6.1.0"
+  }
+}
