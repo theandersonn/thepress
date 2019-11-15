@@ -1,25 +1,19 @@
 # thepress
-> Tema em branco para acelerar o desenvolvimento de sites com WordPress
+> Tema em branco para facilitar o desenvolvimento de sites com WordPress
 
 Contém arquivos iniciais, sem formatação e funções para o desenvolvimento de sites com WordPress.
 
 ## Recursos
-- Reset Básico
-- Grid Bootstrap 4
-- Apenas concatena css e js (realizo a minificação no servidor)
+- Tasks com Gulp (acesse a pasta _builder)
+- Apenas compila scss e concatena js
 
-## Como rodar o buid com NPM Scripts
+## Como rodar o buider com NPM Scripts
 ```txt
-# Instala o Browser Sync globalmente
-npm install -g browser-sync
-```
-
-```txt
-# Instala as depências
+# Instala as dependencias
 npm install
 
-# Processa scss / Concatena JS / Levanta servidor
-npm run dev
+# Processa scss / Concatena JS ES6+
+npm start
 ```
 
 ## Dúvidas / Sugestões
