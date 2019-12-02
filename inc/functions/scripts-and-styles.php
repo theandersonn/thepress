@@ -14,9 +14,9 @@ function thepress_load_scripts_style() {
     wp_enqueue_script('jquery-migrate', false, array(), false, true);
 
 	// Carrega os estilos CSS
-	wp_enqueue_style('theme', get_stylesheet_directory_uri() . '/assets/css/all.css', 1, $version);
+	wp_enqueue_style('theme', get_stylesheet_directory_uri() . '/static/css/all.css', 1, $version);
 
-	// Carrega scripts JS 
-	wp_enqueue_script('app', get_stylesheet_directory_uri() . '/assets/js/all.js', null, $version, true);
+	// Carrega scripts JS
+	wp_enqueue_script('app', get_stylesheet_directory_uri() . '/static/js/all.js', null, $version, true);
 
 }

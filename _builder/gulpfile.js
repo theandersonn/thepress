@@ -11,7 +11,7 @@ gulp.task('sass', () =>
     .pipe(gulp.dest('../static/css/'))
 );
 
-const srcJs = [,
+const srcJs = [
   '../_src/js/inc/file1.js',
   '../_src/js/inc/file2.js'
 ];
@@ -19,7 +19,7 @@ const srcJs = [,
 gulp.task('js', () =>
   gulp
     .src([...srcJs])
-    .pipe(concat('bundle.js'))
+    .pipe(concat('all.js'))
     .pipe(babel({ presets: ['@babel/preset-env'] }))
     .pipe(gulp.dest('../static/js/'))
 );
